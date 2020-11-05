@@ -1,0 +1,114 @@
+
+.head{
+    color:#1a2028;
+    text-align: center;
+    height: 400px;
+
+  }
+.Tabs{
+    width:100%;
+    height:600px;
+    box-shadow: 1px 2px 5px rgba(0,0,0, 1);
+    margin: 7rem auto 8.1rem auto;
+  }
+.Tabs .tabPanel{
+    display: none;
+  }
+.Tabs #tabMenu{
+    margin-top: -30px;
+}
+.Tabs .formulir .isi{
+    margin-top: -20px;
+
+}
+
+.Daftar{
+    background:#2dbd6e transparent;
+    opacity: 0.9;
+    border-radius: 8px;
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 40%px;
+    align-items: center;
+}
+
+.Daftar .logo{
+    color: #000000;
+    font-family: "Raleway thin", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+    margin-top: -70px;
+}
+    a{
+    text-decoration: none;
+}
+label{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+.form{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form, .email, .password{
+    color: #000000;
+    font-weight: 600;
+}
+
+.tombol .submit-btn{
+    margin-left: 17px; 
+    width: 90%;
+    margin-bottom: 5px;
+}
+#Daftar{
+    color: #2dbd6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+  
+}
+
+/* Tombol */
+#Daftar:hover{
+    text-shadow: 0px 1px 8px#2dbd6e; 
+    font-size: 10pt;
+}
+.submit-btn{
+    align-items: center;
+    text-align: center;
+    background: #145a34;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 153px;
+}
+.submit-btn:hover{
+    box-shadow: 0px 1px 18px  #1d7c48;
+}
+.button .submit-btn{
+    width: 100%;
+}
+.tabPanel .sign-up-2{
+    margin-top: -50px;
+}
+.tabPanel .next{
+    margin-top: 20px;
+}
+/* Image */
+.Tabs .formulir .image {
+    width: 500px;
+    height: 500px;
+
+}
